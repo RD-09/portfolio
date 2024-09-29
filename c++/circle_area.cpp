@@ -2,7 +2,7 @@
 
 using namespace std;
 
-  int main() {
+int main() {
   double A, n, R;
 
   n = 3.14159; 
