@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives import hashes
 try:
     try:
         path_input = input("Enter file path")
-        path = open(path_input, mode='rb')   # open("/home/ethen/Documents/Temp", mode="rb")
+        path = open(path_input, mode='rb')
 
     except FileNotFoundError:
         print("No such file")
