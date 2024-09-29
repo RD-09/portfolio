@@ -2,16 +2,16 @@
 
 using namespace std;
 
-int main() {
-double A, n, R;
+  int main() {
+  double A, n, R;
 
-n = 3.14159; 
-cout << "Enter radius";
-cin >> R;
+  n = 3.14159; 
+  cout << "Enter radius";
+  cin >> R;
 
-A = n*(R*R);
+  A = n*(R*R);
 
-cout << fixed << setprecision(3) << "Area = " << A << endl;
+  cout << fixed << setprecision(3) << "Area = " << A << endl;
 
-return 0;
+  return 0;
 }
